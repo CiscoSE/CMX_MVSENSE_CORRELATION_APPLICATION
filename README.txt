@@ -7,7 +7,7 @@ There are 3 main functionalities in this repository.  The cmxreceiver.py program
 
 
 ——----- MV Sense Camera Setup ------——
-Leverage Meraki new camera API and MQTT capability to create a notification service. When the camera detects a person consistently appears in a particular zone the service will send a Webex team message to a Webex team room with a video link which will directly go to the video footage when that even occurred. This is useful for alerting unexpected person movement in off-hours.
+Leverage Meraki new camera API and MQTT capability to create a notification service. When the camera detects a person consistently appears in a particular zone the service will send a Webex team message to a Webex team room with a video link which will directly go to the video footage when that even occurred. This is useful for alerting unexpected person movement in off-hours. Here is more information on MV sense data: https://developer.cisco.com/meraki/build/mv-sense-documentation/
 
 —— MQTT and setting ——
 1. In the Meraki dashboard, go to **Cameras > [Camera Name] > Settings > Sense** page.
