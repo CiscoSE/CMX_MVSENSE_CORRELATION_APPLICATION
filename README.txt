@@ -58,7 +58,7 @@ https://documentation.meraki.com/MR/Monitoring_and_Reporting/CMX_Analytics#CMX_L
 1. Download ngrok which is used to create public URLs for programs (more information here: https://ngrok.com)
 2. Use ngrok to expose port 5000 by entering ‘./ngrok http 5000’ into terminal
 3. You should see a url created that looks similar to this ‘https://2a6eed03.ngrok.io/'
-4. Copy and paste this url into the “Post URL” section of “Location and Analytics” in the Meraki Dashboard
+4. Copy and paste this url into the “Post URL” section of “Location and scanning” section of the Network-Wide General Configuration in the Meraki Dashboard
 5. Note that the validate button should fail at this point as the the cmx receiver is not up and running
 
 
